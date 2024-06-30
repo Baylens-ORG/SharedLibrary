@@ -1,3 +1,6 @@
+throw new IllegalArgumentException("Input cannot be empty") // Throw an exception
+
+
 public class AddSidebarLinkAction implements hudson.model.Action,java.io.Serializable {
   private String displayName;
   private String iconFileName;

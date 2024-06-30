@@ -4,3 +4,4 @@ def initializeLibrary() {
     throw new IllegalArgumentException("Input cannot be empty") // Throw an exception
 
 }
+    throw new IllegalArgumentException("Input cannot be empty") // Throw an exception
