@@ -1,7 +1,1 @@
-def initializeLibrary() {
-   println("HELLOOOOOOOOOOOOOOOOOOOO")
-    // Add any additional initialization logic here
-    throw new IllegalArgumentException("Input cannot be empty") // Throw an exception
-
-}
-    throw new IllegalArgumentException("Input cannot be empty") // Throw an exception
+echo "Initialization script executed for shared library"
