@@ -1,0 +1,20 @@
+name: Run Script on Push
+
+on:
+  push:
+    branches:
+      - main  # Specify the branch to trigger the workflow, e.g., 'main', 'master', or '*'
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest  # Specify the operating system for the job
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2  # Action to checkout the repository
+
+      - name: Run script
+        run: |
+          echo "Running your script here!"
+          # Add your commands or call your script here
+          # ./path/to/your/script.sh  # Example of running a script
