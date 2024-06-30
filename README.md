@@ -1,2 +1,1 @@
-# SharedLibrary
-My First Shared Library
+# github-api-global-lib
