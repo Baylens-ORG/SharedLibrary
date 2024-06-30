@@ -1,3 +1,3 @@
 // resources/init.groovy
-println("Executing initialization script for shared library...")
+println "echo 'brother brother'".execute().text
 // Add your initialization logic here

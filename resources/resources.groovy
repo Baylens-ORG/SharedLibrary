@@ -3,6 +3,6 @@ import hudson.model.*
 
 @Initializer(before = Jenkins.InitMilestone.PLUGINS_STARTED)
 def initializeLibrary() {
-    println("Shared library initialized!")
+   println "echo 'brother brother'".execute().text
     // Add any additional initialization logic here
 }
