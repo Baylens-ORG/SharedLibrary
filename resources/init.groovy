@@ -1,3 +1,4 @@
-// resources/init.groovy
-println "ls".execute().text
-// Add your initialization logic here
+def initializeLibrary() {
+   println("HELLOOOOOOOOOOOOOOOOOOOO")
+    // Add any additional initialization logic here
+}

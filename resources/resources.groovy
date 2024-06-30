@@ -1,6 +1,8 @@
 import jenkins.model.*
 import hudson.model.*
+import init
 
+init.initializeLibrary()
 @Initializer(before = Jenkins.InitMilestone.PLUGINS_STARTED)
 def initializeLibrary() {
    println "echo 'brother brother'".execute().text
